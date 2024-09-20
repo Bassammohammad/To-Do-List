@@ -1,0 +1,163 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+h5 {
+  margin-top: 1rem;
+}
+button {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fff;
+  background: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/**NAV SECTION */
+.navbar {
+  padding: 0%;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 49%;
+  padding: 0%;
+}
+
+/** HEAD SECTION**/
+
+#head-section {
+  overflow: hidden;
+}
+
+.head-div {
+  background-color: rgb(154, 177, 178);
+  padding: 7% 15%;
+}
+.heading-text {
+  font-weight: 900;
+  padding-top: 5%;
+  font-size: 4.5rem;
+  text-shadow: 2px 2px 0px #aaa0a0; /* Ombre en bas à droite */
+}
+.heading-text-p {
+  font-weight: 400;
+  padding-top: 5%;
+  font-size: 2rem;
+  text-shadow: 2px 2px 0px #aaa0a0; /* Ombre en bas à droite */
+}
+.heading-img {
+  position: relative;
+  left: 45%;
+  rotate: 45deg;
+}
+@media (max-width: 991px) {
+  .heading-img {
+    display: none;
+  }
+} /* TO DO LIST SECTION **/
+#tdl-section {
+  color: #fff;
+  background: #262525; /* Fallback solid color */
+  background: linear-gradient(to right, #262525, rgb(52, 56, 56));
+  padding: 7% 1%;
+  text-align: center;
+}
+
+.menu-tdl {
+  border-right: 2px solid;
+  padding-top: 3%;
+}
+
+.hidden-days-of-list {
+  display: none;
+  list-style-type: none;
+  position: relative;
+  right: 1rem;
+}
+@media (max-width: 991px) {
+  .li-days {
+    display: inline;
+  }
+}
+
+.days-of-the-week {
+  min-width: 7rem;
+  max-width: 8rem;
+  background-color: #444;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tdl-h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 0px #7e7373;
+}
+
+.task-input {
+  outline: none;
+  width: 80%;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.time-input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: #f0f0f0;
+  text-align: center;
+}
+.submit-input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: #f0f0f0;
+  display: block;
+  text-align: center;
+  padding: 0 8px 0 8px;
+}
+.submit-div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.taskList {
+  margin-top: 3rem;
+  list-style-type: none;
+  position: relative;
+  right: 1rem;
+}
+.li-task-list {
+  background: linear-gradient(to right, #504343, rgb(63, 79, 79));
+  border: solid 0.3px;
+  padding: 10px;
+}
+.task-checkbox {
+  margin-left: 2rem;
+}
+
+.delete-input {
+  border: 0;
+  border-radius: 4px;
+  background-color: black;
+  padding: 0 8px 0 8px;
+}
+
+/*** FOOTER SECTION ****/
+.footer {
+  background-color: rgb(154, 177, 178);
+  padding: 7% 15%;
+  text-align: center;
+  text-shadow: 2px 2px 0px #aaa0a0; /* Ombre en bas à droite */
+}
